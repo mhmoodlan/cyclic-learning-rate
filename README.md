@@ -13,7 +13,7 @@ CLR is used to enhance the way the learning rate is scheduled during training, t
 It eliminates the need to experimentally find the best values for the global learning rate. Allowing the learning rate to cyclically vary between lower and upper boundary values.
 The idea is to divide the training process into cycles determined by a _stepsize_ parameter, which defines the number of iterations in half a cycle. The author claims that it is often good to set the _stepsize_ to:
 ```
-stepsize = 2 − 10 ∗  number of iterations in an epoch
+stepsize = (2 to 10) times the number of iterations in an epoch
 ```
 
 The learning rate is computed as:
