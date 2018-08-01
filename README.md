@@ -90,7 +90,6 @@ plt.plot(range(250), rates)
 ```
 [out]:
 True
-[<matplotlib.lines.Line2D at 0x7f68c870be80>]
 ```
 ![png](./figures/output_6_2.png)
 
@@ -120,7 +119,6 @@ plt.plot(range(250), rates)
 ```
 [out]:
 False
-[<matplotlib.lines.Line2D at 0x7fcae9e7f4a8>]
 ```
 ![png](./figures/output_8_2.png)
 
