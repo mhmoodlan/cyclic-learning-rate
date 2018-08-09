@@ -1,6 +1,5 @@
 """Functional test for learning rate decay."""
 import math
-#from tensorflow.python.training import learning_rate_decay
 import clr as learning_rate_decay
 from tensorflow.python.framework import test_util
 
